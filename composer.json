@@ -1,0 +1,20 @@
+{
+  "name": "dn_misha/qubit-interview",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mihailvysochin",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\product\\": "product",
+      "app\\order\\": "order"
+    }
+  }
+}
